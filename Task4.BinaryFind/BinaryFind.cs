@@ -7,11 +7,19 @@ using System.Threading.Tasks;
 
 namespace Task4BinaryFind
 {
-    public class BinaryFind<T>
+    public static class BinaryFind<T>
     {
         public static int Find(T[] array, T value, IComparer<T> comparer)
         {
-            int left = 0, riht = array.Length - 1, ind;
+            if (comparer == null)
+            {
+                if (value is IComparer<T>)
+                    comparer = (IComparer<T>)value;
+                else
+                    throw new ArgumentNullException();
+            }
+
+            int left = 0, riht = array.Length, ind;
 
             do
             {
@@ -21,11 +29,11 @@ namespace Task4BinaryFind
                 else if (comparer.Compare(array[ind], value) < 0)
                     left = ind;
                 else
-                    break;
+                    return ind;
 
-            } while (riht != left);
+            } while (riht > left + 1);
 
-            return ind;
+            return -1;
         }
     }
 }

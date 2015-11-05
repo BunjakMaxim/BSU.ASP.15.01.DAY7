@@ -18,6 +18,14 @@ namespace Tasc4BinaryFindTest
         }
 
         [Test]
+        public void BinatryFindIntNull()
+        {
+            int[] a = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int ind = BinaryFind<int>.Find(a, 11, new ComparerInt());
+            Assert.AreEqual(ind, -1);
+        }
+
+        [Test]
         public void BinatryFindDouble()
         {
             double[] a = new double[] { 0.0, 1.0, 1.5, 2.5, 3.7, 4.0};
@@ -25,6 +33,13 @@ namespace Tasc4BinaryFindTest
             Assert.AreEqual(ind, 4);
         }
 
+        [Test]
+        public void BinatryFindPoint()
+        {
+            Point[] a = new Point[] { new Point(1, 2), new Point(2, 3), new Point(3, 4), new Point(4, 5) };
+            int ind = BinaryFind<Point>.Find(a, new Point(2, 3), null); 
+            Assert.AreEqual(ind, 1);
+        }
     }
 
     class ComparerInt : IComparer<int>
@@ -40,6 +55,22 @@ namespace Tasc4BinaryFindTest
         public int Compare(double x, double y)
         {
             return (int)(x - y);
+        }
+    }
+
+    class Point : IComparer<Point>
+    {
+        private int x, y;
+
+        public Point(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int Compare(Point x, Point y)
+        {
+            return (x.x - y.x) + (x.y - y.y);
         }
     }
 }
