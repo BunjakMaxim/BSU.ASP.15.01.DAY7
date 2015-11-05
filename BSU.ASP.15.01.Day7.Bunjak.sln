@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4BinaryFind", "Task4.BinaryFind\Task4BinaryFind.csproj", "{1200F44F-37AF-4502-AB03-499E00D17C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{EE82F2B3-BD77-4F12-A93A-52EACA6D4DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3CustomQueueLibrary", "Task3CustomQueueLibrary\Task3CustomQueueLibrary.csproj", "{C3F65F33-057F-473E-B668-62E606D2135C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2FibonacciSequence", "Task2FibonacciSequence\Task2FibonacciSequence.csproj", "{9B7556BE-51FE-4BD7-B7EE-D808C4581449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Timer", "Tasc1Timer\Task1Timer.csproj", "{2FF63E88-001C-45FF-AE70-FF5725B639F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4BinaryFindTest", "Tasc4BinaryFindTest\Task4BinaryFindTest.csproj", "{067456C0-086C-46A8-B37F-1405717B7BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1200F44F-37AF-4502-AB03-499E00D17C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1200F44F-37AF-4502-AB03-499E00D17C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1200F44F-37AF-4502-AB03-499E00D17C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1200F44F-37AF-4502-AB03-499E00D17C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE82F2B3-BD77-4F12-A93A-52EACA6D4DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE82F2B3-BD77-4F12-A93A-52EACA6D4DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE82F2B3-BD77-4F12-A93A-52EACA6D4DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE82F2B3-BD77-4F12-A93A-52EACA6D4DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F65F33-057F-473E-B668-62E606D2135C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F65F33-057F-473E-B668-62E606D2135C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F65F33-057F-473E-B668-62E606D2135C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F65F33-057F-473E-B668-62E606D2135C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7556BE-51FE-4BD7-B7EE-D808C4581449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7556BE-51FE-4BD7-B7EE-D808C4581449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7556BE-51FE-4BD7-B7EE-D808C4581449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7556BE-51FE-4BD7-B7EE-D808C4581449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF63E88-001C-45FF-AE70-FF5725B639F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF63E88-001C-45FF-AE70-FF5725B639F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF63E88-001C-45FF-AE70-FF5725B639F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF63E88-001C-45FF-AE70-FF5725B639F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
